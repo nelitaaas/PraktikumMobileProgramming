@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Biodata</string>
+    <string name="Nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="nim">Nim</string>
+    <string name="angkatan">Angkatan</string>
+    <string name="tampil">Tampil</string>
+    <string name="biodata">BIODATA</string>
+    <string name="reset">Reset</string>
+    <string name="kembali">Kembali</string>
+    <string name="keterangan">*Klik Untuk Tambah Foto</string>
+</resources>
