@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nim" />
+
+        <EditText
+            android:id="@+id/txtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama" />
+
+        <CheckBox
+            android:id="@+id/matkul1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PCD" />
+
+        <CheckBox
+            android:id="@+id/matkul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PMB" />
+
+        <CheckBox
+            android:id="@+id/matkul3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PPL" />
+
+        <Button
+            android:id="@+id/btSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tugas2-PrakMobPro</string>
+    <string name="logo">Logo</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="log_in_with_twitter">Log in with twitter</string>
+    <string name="login_gplus">Log in with gplus</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="simpan">Simpan</string>
+    <string name="err_msg_username">Username Wajib Diisi</string>
+    <string name="err_msg_pass">Password Wajib Diisi</string>
+    <string name="facebook_app_id">542914199239928</string>
+    <string name="input_krs">INPUT KRS</string>
+    <string name="data_krs">DATA KRS</string>
+</resources>
