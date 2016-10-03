@@ -16,4 +16,8 @@
     <string name="facebook_app_id">542914199239928</string>
     <string name="input_krs">INPUT KRS</string>
     <string name="data_krs">DATA KRS</string>
+    <string name="mata_kuliah">Mata Kuliah</string>
+    <string name="pcd">Pengolahan Citra Digital</string>
+    <string name="pmb">Praktikum Mobile Programming</string>
+    <string name="ppl">Proyek Perangkat Lunak</string>
 </resources>

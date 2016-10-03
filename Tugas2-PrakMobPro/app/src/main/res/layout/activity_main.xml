@@ -27,26 +27,42 @@
             android:layout_height="wrap_content"
             android:hint="Nama" />
 
-        <CheckBox
-            android:id="@+id/matkul1"
+        <TextView
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PCD" />
+            android:textSize="16sp"
+            android:text="@string/mata_kuliah"/>
+
+        <CheckBox
+            android:id="@+id/matkul1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pcd" />
 
         <CheckBox
             android:id="@+id/matkul2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PMB" />
+            android:text="@string/pmb" />
 
         <CheckBox
             android:id="@+id/matkul3"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PPL" />
+            android:text="@string/ppl" />
 
         <Button
             android:id="@+id/btSubmit"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/bg"
+            android:background="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit" />
