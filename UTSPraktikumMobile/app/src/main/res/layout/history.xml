@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED" >
+
+    <ListView
+        android:id="@+id/list_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/transparent"
+        android:dividerHeight="10dp"
+        android:drawSelectorOnTop="true"
+        android:footerDividersEnabled="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="80dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_above="@+id/btHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:text="TOTAL"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_marginEnd="10dp"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btHapus"
+        android:textColor="@color/white"
+        android:text="@string/hapus_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/abouts"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="\n\nNelita Apriyani"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1137050167"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="nelita.ap@student.uinsgd.ac.id"
+        android:textStyle="italic|bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

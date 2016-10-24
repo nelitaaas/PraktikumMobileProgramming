@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nelitaaas.com.utspraktikummobile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity"/>
+
+        <activity android:name=".Pesan"
+            android:label="@string/list_item"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
+
+        <activity android:name=".Pemesanan"
+            android:label="@string/pemesanan"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pesan"/>
+
+        </activity>
+
+        <activity android:name=".History"
+            android:label="@string/history"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
+
+        <activity android:name=".Booking"
+            android:label="@string/booking_meja"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
+
+        <activity android:name=".About"
+            android:label="@string/about_me"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
+
+        <activity android:name=".DetailItem"
+            android:label="@string/detail_item"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pesan"/>
+
+        </activity>
+    </application>
+
+</manifest>

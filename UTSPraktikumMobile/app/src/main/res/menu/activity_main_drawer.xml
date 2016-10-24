@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pesan"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="@string/pesan" />
+        <item
+            android:id="@+id/booking"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="@string/booking" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/history" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_perm_device_information_black_24dp"
+                android:title="@string/about" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>
