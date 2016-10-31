@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:theme="@style/MyCustomToolBarTheme"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    android:fitsSystemWindows="true">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_action"/>-->
+
+    <!--app:theme = Ubah manual Theme
+    app:popupTheme = Ubah Tema All Popup Menu
+    android:paddingTop="@dimen/app_bar_top_padding"-->
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UTS Mobile Programming</string>
+    <string name="copyright">Copyright &#169; 2016\n@nelitaaas</string>
+    <string name="choose_your_order">Choose Your Order :</string>
+    <string name="gambar_pesanan">Gambar Pesanan</string>
+    <string name="pemesanan">Pemesanan</string>
+    <string name="logout">Logout</string>
+    <string name="anda_memesan">Anda Memesan :</string>
+    <string name="from">Dari:</string>
+    <string name="tuliskan_ucapan_disini">Tuliskan Ucapan disini</string>
+    <string name="nama_pengirim">Nama Pengirim</string>
+    <string name="submit">Pesan &#160;&#160;</string>
+    <string name="untuk">Untuk:</string>
+    <string name="forgot">Lupa Password?</string>
+    <string name="selesai">&#160;&#160; Selesai</string>
+</resources>

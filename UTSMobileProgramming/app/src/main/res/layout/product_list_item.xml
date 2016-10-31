@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/product_list_item_bg"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@+id/pdt_layout_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgbtn_favorite"
+            android:textColor="@color/jet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txt_pdt_desc"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:background="@null"
+            android:contentDescription="@string/gambar_pesanan" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imgItem"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:id="@+id/txt_pdt_name"
+            android:text="Nasi Goreng Mawut Sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgItem"
+            android:layout_toEndOf="@+id/imgItem" />
+
+        <TextView
+            android:id="@+id/txt_pdt_price"
+            android:text="30.000"
+            android:layout_margin="5dp"
+            android:textColor="@color/jet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_pdt_name"
+            android:layout_toRightOf="@+id/imgItem"
+            android:layout_toEndOf="@+id/imgItem" />
+
+        <TextView
+            android:id="@+id/txt_pdt_desc"
+            android:text="Nasi Goreng dengan Mie Goreng"
+            android:textColor="@color/jet"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_pdt_price"
+            android:layout_toRightOf="@+id/imgItem"
+            android:layout_toEndOf="@+id/imgItem" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/pdt_layout_item"
+        android:background="@color/view_divider_color" />
+
+</RelativeLayout>
